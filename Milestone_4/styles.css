@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  background-color: #E3F2FD; /* Light blue background for a calming effect */
+}
+
+form {
+  border: 2px solid #90A4AE; /* Soft gray-blue border for subtle contrast */
+  width: 50%;
+  padding: 2%;
+  border-radius: 32px;
+  background-color: #FFFFFF; /* White background for clarity */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #455A64; /* Dark gray-blue for labels */
+}
+
+.input {
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #B0BEC5; /* Light gray border for inputs */
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus {
+  border: 1px solid #64B5F6; /* Bright blue on focus */
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.submit {
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 6px;
+  width: 60%;
+  background-color: #64B5F6; /* Bright blue button for a pop of color */
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.submit:hover {
+  background-color: #5DA4E6; /* Slightly darker blue on hover */
+}
+
+.submit:active {
+  transform: scale(0.995);
+}
+
+.btnDiv {
+  text-align: center;
+}
