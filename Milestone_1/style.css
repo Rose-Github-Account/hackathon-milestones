@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  background: #ffffff; /* Soft light blue-gray background */
+}
+
+.resumeDiv {
+  width: 70%;
+  border: 3px solid #0a0a0a; /* solid black border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+header {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background: linear-gradient(135deg, #6a82fb, #fc5c7d); /* Vibrant gradient */
+  color: rgb(12, 12, 12); /* White text for contrast */
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #060606; /* White border around the profile image */
+}
+
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.content aside {
+  width: 30%;
+  padding: 30px;
+  background: rgb(252, 237, 244); /* Clean white background */
+}
+
+.contact,
+.education,
+.skill,
+.language {
+  margin-bottom: 30px;
+}
+
+.contact h2,
+.education h2,
+.skill h2,
+.language h2,
+.expertise h2, /* Add expertise h2 */
+.experience h2, /* Add experience h2 */
+.refrence h2 {
+  border-bottom: 2px solid #6a82fb; /* Use the same color as the header gradient */
+  margin-bottom: 20px;
+  padding-bottom: 3px;
+  color: #6a82fb; /* Matching color for all headings */
+}
+
+.education,
+.skill,
+.language {
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.skill ul {
+  margin-left: 18px;
+}
+
+.main-content {
+  width: 70%;
+  padding: 30px;
+  background-color: rgb(255, 248, 251); /* White background for content */
+}
+
+.experience-items {
+  margin-bottom: 54px;
+}
+
+.experience-items p {
+  margin-bottom: 5px;
+}
+
+.experience-items ul {
+  margin-left: 18px;
+  margin-top: 15px;
+}
+
+.btnDiv {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: rgb(6, 6, 6);
+  background: #fc5c7d; /* Button color */
+  transition: background 0.3s; /* Smooth transition for hover effects */
+}
+
+.btn:hover {
+  background: #6a82fb; /* Change color on hover */
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.hide {
+  display: none;
+}
+
+
+
+
+
+
